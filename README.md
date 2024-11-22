@@ -2,6 +2,11 @@
 Various Logos Bible Software resources, tips, etc.
 
 
+
+Book: King James Version
+Range: All Passages
+Search Type: Bible
+
 ```
-lemma.h:שׁמע NOT EQUALS HEAR
+lord AND God
 ```
