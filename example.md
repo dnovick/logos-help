@@ -1,3 +1,5 @@
+<base target="_blank">
+
 # 01: Basic Search
 
 ## Concepts
