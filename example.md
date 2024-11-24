@@ -47,7 +47,7 @@ By default, Logos searches are case insensitive. Settting ```Match case``` will 
 - [ ] Match all forms
 - Reference Matching: Default
 
-#### Search Links
+#### Search Text
 
 -[Lord God](https://ref.ly/logos4/Search?kind=BibleSearch&q=Lord+God&syntax=v2&documentlevel=verse&match=case&references=bible%2bkjv.1-17.10.3%0abible%2bkjv.18-39&in=raw%3aTop%7cDataType%3dbible%7cResourceType%3dtext.monograph.bible%7cResultLimit%3d1%7cTitle%3dTop%2520Bible%2520(KJV%25201900)&viewkind=passages) 
 
@@ -57,14 +57,7 @@ By default, Logos searches are case insensitive. Settting ```Match case``` will 
 
 When searching for more than two words and using a combination of the ```AND``` and ```OR``` terms, it may be necessary to use parentheses to ensure the intended search is executed.
 
-#### Search Configuration
-
-**Search Text:**
-
-- (lord or god) AND almighty
-- (lord AND god) OR almigthy
-
-#### Search Links
+#### Search Text
 
 - [(lord OR god) AND almighty](https://ref.ly/logos4/Search?kind=BibleSearch&q=(lord+OR+god)+AND+almighty&syntax=v2&documentlevel=verse&match=nostem&references=bible%2bkjv.1-17.10.3%0abible%2bkjv.18-39&in=raw%3aTop%7cDataType%3dbible%7cResourceType%3dtext.monograph.bible%7cResultLimit%3d1%7cTitle%3dTop%2520Bible%2520(KJV%25201900)&viewkind=passages)
 
