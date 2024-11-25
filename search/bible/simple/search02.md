@@ -16,8 +16,6 @@ As with their use in many operating system command line file name globs, these w
 | *        | 0 or more characters |
 | ?        | Exactly 1 character  |
 
-  
-
 ## Search Configuration
 
 | Name           | Value                       |

@@ -4,6 +4,9 @@ Various Logos Bible Software resources, tips, etc.
 
 ## Contents
 
+[General Search Tips](general-search-tips.md)
+
+
 ### Search
 
 #### Bible
