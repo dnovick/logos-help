@@ -1,0 +1,6 @@
+- Proximity/ordering terms (WITHIN, BEFORE, AFTER)
+- Negation (NOT)
+- Tags (messianicProphecy:source:bible:Isaiah)
+- EQUALS, IN 
+- https://community.logos.com/kb/articles/884#Wildcards
+- (Love OR hate) NOT (love AND hate) - XOR
