@@ -1,38 +1,94 @@
-# Basic Bible Search
+# 01: Basic Search
 
-# Concepts
+## Concepts
 
-- Search terms
+- Basic Bible word search
 
-# Description
+- AND vs OR search terms
 
-An example basic bible search
+- Parentheses for grouping words.
 
-# Details
+## Description
 
-**Search Type:** Bible
+This is just a basic Bible search that searches for one or more words. Words can be combined with either AND (implicit) or OR.
 
-**Bible:** KJV 1900
+  
 
-**Search Fields:** All Bible Text
+## Search Configuration
 
-**Match Within**: Verse
+| Name           | Value                       |
+| -------------- | --------------------------- |
+| Search Type    | Bible                       |
+| Bible          | KJV 1900                    |
+| Search Fields  | All Bible Text              |
+| Match Within   | Verse                       |
+| Search Filter  | Old Testament               |
+| Match Criteria | - [ ] Match case            |
+|                | - [ ] Match all forms       |
+|                | Reference matching: Default |
 
-**Search Filter:** All Passages
+| Name        | Value                                                                                                                                                                                                                                                                                                                             |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Search Text | [lord god](https://ref.ly/logos4/Search?kind=BibleSearch&q=lord+god&syntax=v2&documentlevel=verse&match=nostem&references=bible%2bkjv.1-17.10.3%0abible%2bkjv.18-39&in=raw%3aTop%7cDataType%3dbible%7cResourceType%3dtext.monograph.bible%7cResultLimit%3d1%7cTitle%3dTop%2520Bible%2520(KJV%25201900)&viewkind=passages)         |
+|             | [lord AND god](https://ref.ly/logos4/Search?kind=BibleSearch&q=lord+AND+god&syntax=v2&documentlevel=verse&match=nostem&references=bible%2bkjv.1-17.10.3%0abible%2bkjv.18-39&in=raw%3aTop%7cDataType%3dbible%7cResourceType%3dtext.monograph.bible%7cResultLimit%3d1%7cTitle%3dTop%2520Bible%2520(KJV%25201900)&viewkind=passages) |
+|             | [lord god](https://ref.ly/logos4/Search?kind=BibleSearch&q=lord+god&syntax=v2&documentlevel=verse&match=nostem&references=bible%2bkjv.1-17.10.3%0abible%2bkjv.18-39&in=raw%3aTop%7cDataType%3dbible%7cResourceType%3dtext.monograph.bible%7cResultLimit%3d1%7cTitle%3dTop%2520Bible%2520(KJV%25201900)&viewkind=passages)         |
+## Variations
 
-**Match Criteria:** 
+### A: Case Matching
 
-- [ ] Match case
+#### Description
 
-- [ ] Match all forms
+By default, Logos searches are case insensitive. Settting ```Match case``` will make the search case sensitive.
 
-- Reference Matching: Default
+#### Search Configuration
 
-**Search Text**: hear AND lord
+| Name               | Value                       |
+| ------------------ | --------------------------- |
+| Search Type        | Bible                       |
+| Bible              | KJV 1900                    |
+| Search Fields      | All Bible Text              |
+| Match Within       | Verse                       |
+| Search Filter      | Old Testament               |
+| **Match Criteria** | **- [x] Match case**        |
+|                    | - [ ] Match all forms       |
+|                    | Reference matching: Default |
 
-**Search Link**: 
+| Name            | Value                                                                                                                                                                                                                                                                                                                     |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Search Text** | **[Lord God](https://ref.ly/logos4/Search?kind=BibleSearch&q=Lord+God&syntax=v2&documentlevel=verse&match=case&references=bible%2bkjv.1-17.10.3%0abible%2bkjv.18-39&in=raw%3aTop%7cDataType%3dbible%7cResourceType%3dtext.monograph.bible%7cResultLimit%3d1%7cTitle%3dTop%2520Bible%2520(KJV%25201900)&viewkind=passages)** |
 
-# Logos Help/References
-- 
+### B: More Than Two Words
 
-# Notes
+#### Description
+
+When searching for more than two words and using a combination of the ```AND``` and ```OR``` terms, it may be necessary to use parentheses to ensure the intended search is executed.
+
+#### Search Configuration
+
+| Name           | Value                       |
+| -------------- | --------------------------- |
+| Search Type    | Bible                       |
+| Bible          | KJV 1900                    |
+| Search Fields  | All Bible Text              |
+| Match Within   | Verse                       |
+| Search Filter  | Old Testament               |
+| Match Criteria | - [ ] Match case            |
+|                | - [ ] Match all forms       |
+|                | Reference matching: Default |
+
+| Name        | Value                                                                                                                                                                                                                                                                                                                                                          |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Search Text | [(lord OR god) AND almighty](https://ref.ly/logos4/Search?kind=BibleSearch&q=(lord+OR+god)+AND+almighty&syntax=v2&documentlevel=verse&match=nostem&references=bible%2bkjv.1-17.10.3%0abible%2bkjv.18-39&in=raw%3aTop%7cDataType%3dbible%7cResourceType%3dtext.monograph.bible%7cResultLimit%3d1%7cTitle%3dTop%2520Bible%2520(KJV%25201900)&viewkind=passages)  |
+|             |  [(lord AND god) OR almighty](https://ref.ly/logos4/Search?kind=BibleSearch&q=(lord+AND+god)+OR+almighty&syntax=v2&documentlevel=verse&match=nostem&references=bible%2bkjv.1-17.10.3%0abible%2bkjv.18-39&in=raw%3aTop%7cDataType%3dbible%7cResourceType%3dtext.monograph.bible%7cResultLimit%3d1%7cTitle%3dTop%2520Bible%2520(KJV%25201900)&viewkind=passages) |
+|             |                                                                                                                                                                                                                                                                                                                                                                |
+## Logos Help/References
+- [How do I use search operators?](https://support.logos.com/hc/en-us/articles/360044454351-How-do-I-use-Search-Operators-in-Logos#AND)
+
+  
+## Related Searches
+-
+
+## Notes
+-
+
+
