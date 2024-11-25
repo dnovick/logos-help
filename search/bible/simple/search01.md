@@ -81,6 +81,33 @@ When searching for more than two words and using a combination of the ```AND``` 
 | Search Text | [(lord OR god) AND almighty](https://ref.ly/logos4/Search?kind=BibleSearch&q=(lord+OR+god)+AND+almighty&syntax=v2&documentlevel=verse&match=nostem&references=bible%2bkjv.1-17.10.3%0abible%2bkjv.18-39&in=raw%3aTop%7cDataType%3dbible%7cResourceType%3dtext.monograph.bible%7cResultLimit%3d1%7cTitle%3dTop%2520Bible%2520(KJV%25201900)&viewkind=passages)  |
 |             |  [(lord AND god) OR almighty](https://ref.ly/logos4/Search?kind=BibleSearch&q=(lord+AND+god)+OR+almighty&syntax=v2&documentlevel=verse&match=nostem&references=bible%2bkjv.1-17.10.3%0abible%2bkjv.18-39&in=raw%3aTop%7cDataType%3dbible%7cResourceType%3dtext.monograph.bible%7cResultLimit%3d1%7cTitle%3dTop%2520Bible%2520(KJV%25201900)&viewkind=passages) |
 |             |                                                                                                                                                                                                                                                                                                                                                                |
+### C: Exclusive OR (XOR)
+#### Description
+An exclusive OR (XOR) search is used when one wants to find cases where 1 of 2 terms are present, excluding those where both are present.
+
+While Logos does not have an explicit XOR operator, the same results can be achieved by combining 2 search clauses, one with an AND and one with an OR.
+
+#### Search Configuration
+
+| Name           | Value                       |
+| -------------- | --------------------------- |
+| Search Type    | Bible                       |
+| Bible          | KJV 1900                    |
+| Search Fields  | All Bible Text              |
+| Match Within   | Verse                       |
+| Search Filter  | Old Testament               |
+| Match Criteria | - [ ] Match case            |
+|                | - [ ] Match all forms       |
+|                | Reference matching: Default |
+
+| Name        | Value                                                                                                                                                                                                                                                                                                                                                                         |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Search Text | [(love OR hate) NOT (love AND hate)](https://ref.ly/logos4/Search?kind=BibleSearch&q=(love+OR+hate)+NOT+(love+AND+hate)&syntax=v2&documentlevel=verse&match=nostem&references=bible%2bkjv.1-17.10.3%0abible%2bkjv.18-39&in=raw%3aTop%7cDataType%3dbible%7cResourceType%3dtext.monograph.bible%7cResultLimit%3d1%7cTitle%3dTop%2520Bible%2520(KJV%25201900)&viewkind=analysis) |
+|             |                                                                                                                                                                                                                                                                                                                                                                               |
+|             |                                                                                                                                                                                                                                                                                                                                                                               |
+
+
+
 ## Logos Help/References
 - [How do I use search operators?](https://support.logos.com/hc/en-us/articles/360044454351-How-do-I-use-Search-Operators-in-Logos#AND)
 

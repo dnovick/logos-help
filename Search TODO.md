@@ -3,14 +3,12 @@
 - Tags (messianicProphecy:source:bible:Isaiah), data types
 - EQUALS, IN 
 - https://community.logos.com/kb/articles/884#Wildcards
-- (Love OR hate) NOT (love AND hate) - XOR
  - https://support.logos.com/hc/en-us/articles/360044454351-How-do-I-use-Search-Operators-in-Logos
  - 
 
-- search02 - Wildcards ()
 - search03 - Phrases
 - search04 - Lemma, morph
 - search05 - Proximity operators
 - search06 - Fields
 - search07 - Intersection (lemma.h:אהב  NOT INTERSECTS love*)
-- 
+- search08 - 
