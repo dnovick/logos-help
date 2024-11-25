@@ -1,5 +1,4 @@
 - Proximity/ordering terms (WITHIN, BEFORE, AFTER)
-- Negation (NOT)
 - Tags (messianicProphecy:source:bible:Isaiah), data types
 - EQUALS, IN 
 - https://community.logos.com/kb/articles/884#Wildcards

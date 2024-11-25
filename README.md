@@ -11,10 +11,11 @@ Various Logos Bible Software resources, tips, etc.
 
 #### Bible
 
-|Simple Search|
-|--------|
-|[01: Basic Search](search/bible/simple/search01.md)|
-|[02: Wildcards](search/bible/simple/search02.md)|
+| Simple Search                                       |
+| --------------------------------------------------- |
+| [01: Basic Search](search/bible/simple/search01.md) |
+| [02: Wildcards](search/bible/simple/search02.md)    |
+| [03:Phrase Search](search/bible/simple/search03.md) |
 
 |Morph Search|
 |--------|
