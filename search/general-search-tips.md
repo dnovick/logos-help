@@ -1,3 +1,3 @@
 # Interpreting the Search Configuration in the Examples
 
-![](search-key.png)
+![](../images/search-key.png)
