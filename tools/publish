@@ -1,0 +1,22 @@
+#!/bin/zsh
+
+#ls -al "/Users/dnovick/Library/Mobile Documents/iCloud~md~obsidian/Documents/Novick-notes/Blogifying/"
+
+LOGOS_SRC='/Users/dnovick/Library/Mobile Documents/iCloud~md~obsidian/Documents/Novick-notes/Blogifying/logos-help'
+LOGOS_DEST='/Users/dnovick/gitrepos/bible/'
+
+echo "SOURCE:"
+ls -al $LOGOS_SRC
+
+echo "DEST:"
+ls -al $LOGOS_DEST
+
+cd $LOGOS_DEST/logos-help
+
+
+cp -r $LOGOS_SRC $LOGOS_DEST
+
+
+git status
+
+
