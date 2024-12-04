@@ -4,7 +4,13 @@
  - https://support.logos.com/hc/en-us/articles/360044454351-How-do-I-use-Search-Operators-in-Logos
  - 
 
-- search05 - Lemma, morph
-- search06 - Fields
-- search07 - Intersection (lemma.h:אהב  NOT INTERSECTS love*)
-- search08 - 
+- `term:()`
+- Lemma, morph
+- Labels
+   - person:Abraham AND place:"Egypt (nation)"
+   - 
+- Intersection 
+   - (lemma.h:אהב  NOT INTERSECTS love*)
+   - person:"Saul (king)" INTERSECTS king
+
+Jacob NOT EQUALS person:"Jacob (son of Isaac)" 
